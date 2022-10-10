@@ -1,0 +1,47 @@
+/* select all elements*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+}
+body {
+    background-image: url('https://i.postimg.cc/02NKQJrN/Deadpool-Reading-Order.jpg');
+}
+/* header, main,footer */
+header, main,footer {
+    min-width: 100%;
+}
+header, footer{
+    background-color: black;
+}
+/* display: inline-flex */
+header, .menu-list {
+     display: inline-flex;
+}
+header img {
+    width: 5em
+}
+/* menu */
+.menu {
+    margin-left: auto;
+    align-self: center;
+}
+
+/* menu-list */
+.menu-list {
+    list-style: none;
+}
+table{
+    border: 3px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    border: 2px solid black;
+    text-align: center;
+}
+
+/* footer */
+footer p {
+    font-weight: bold;
+}

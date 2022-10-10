@@ -7,32 +7,44 @@
     <link rel="stylesheet" href="./styles/style.css">
     <title>Revision</title>
 </head>
+<header>
+    
+    <img src="https://i.postimg.cc/0Q6kGtCr/98cb88b20acd349e23e5519f7a46b217.jpg" alt="logo">
+    <nav class="menu">
+        <ul class="menu-list">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
 <body>
     <section>
         <h2>Unordered list</h2>
     </section>
     <!-- Unordered list -->
     <ul>
-        <li>item 1</li>
-        <li>item 2</li>
-        <li>item 3</li>
-        <li>item 4</li>
+        <li><b>item</b><sup>1</sup></li>
+        <li><b>item</b><sup>2</sup></li>
+        <li><b>item</b><sup>3</sup></li>
+        <li><b>item</b><sup>4</sup></li>
     </ul>
     <section>
         <h2>Ordered list</h2>
     </section>
     <!-- Ordered list -->
     <ol>
-        <li>item 1</li>
-        <li>item 2</li>
-        <li>item 3</li>
-        <li>item 4</li>
+        <li><b>item</b><sub>1</sub></li>
+        <li><b>item</b><sub>2</sub></li>
+        <li><b>item</b><sub>3</sub></li>
+        <li><b>item</b><sub>4</sub></li>
     </ol>
-   <!-- Table -->
-   <section>
-    <h2>Table</h2>
-    <table>
-        <thead>
+    <!-- Table -->
+    <section>
+        <h2>Table</h2>
+        <table>
+            <thead>
             <tr>
                 <th>Name</th>
                 <th>Surname</th>
@@ -41,18 +53,18 @@
         </thead>
         <tbody>
             <tr>
-                <td>Joel</td>
-                <td>Mukanya</td>
+                <td><i>Joel</i></td>
+                <td><i>Makunya</i></td>
                 <td>0789632541</td>
             </tr>
             <tr>
-                <td>Oslin</td>
-                <td>Johnson</td>
+                <td><i>Oslin</i></td>
+                <td><i>Johnson </i></td>
                 <td>0778695584</td>
             </tr>
             <tr>
-                <td>Luvuyo</td>
-                <td>Ngcobo</td>
+                <td><i>Luvuyo</i></td>
+                <td><i>Ngcobo</i></td>
                 <td>0726587541</td>
             </tr>
         </tbody>
@@ -61,9 +73,41 @@
 <!-- Image -->
 <section>
     <h2>Image</h2>
-    <img src="https://i.postimg.cc/zDRwvx5t/90654-deadpool-2-deadpool-8k-artwork-hd-4k-5k-superheroes-digital-art.jpg" alt="Deadpool">
+    <img src="https://i.postimg.cc/4NP4Szk1/STL083804.jpg" alt="Deadpool">   
 </section>
+<!-- Form -->
+<section>
+    <h2>Form</h2>
+    <form action="https://formspree.io/f/xdojdajv">
+        <div>
+            <input type="text" name="name" placeholder="Enter your name">
+        </div>
+        <div>
+            <input type="text" name="surname" placeholder="Enter your surname">
+        </div>
+        <div>
+            <input type="password" name="password" placeholder="Enter your password">
+        </div>
+        <div>
+            <span>Male</span> <input type="radio" name="gender">
+            <span>Female</span> <input type="radio" name="gender">
+        </div>
+        <div>
+            <label>Subjects:</label>
+            <span>HTML 5<input type="checkbox" name="subject" ></span>
+            <span>CSS 3<input type="checkbox" name="subject" ></span>
+            <span>Bootstrap<input type="checkbox" name="subject" ></span>
+            <span>JavaScript<input type="checkbox" name="subject" ></span>
+        </div>
+        <div>
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+</section>
+</main>
+<footer>
+    <p> Copyright &copy; 2022</p>
+</footer>
 
-    
 </body>
-</html>
+</html> 
